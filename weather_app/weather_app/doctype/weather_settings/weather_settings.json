@@ -1,0 +1,56 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:default_city",
+ "creation": "2025-09-13 20:22:26.400234",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_jjuc",
+  "api_key",
+  "default_city"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_jjuc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "api_key",
+   "fieldtype": "Data",
+   "label": "API Key"
+  },
+  {
+   "default": "Riyadh",
+   "fieldname": "default_city",
+   "fieldtype": "Data",
+   "label": "Default City"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2025-09-13 23:26:29.539140",
+ "modified_by": "Administrator",
+ "module": "Weather App",
+ "name": "Weather Settings",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
